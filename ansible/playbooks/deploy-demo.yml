@@ -14,7 +14,6 @@
   - ../vars/main.yml
 
   roles:
-  - ../roles/java
   - ../roles/elasticsearch
   - ../roles/kibana
   - ../roles/metricbeat

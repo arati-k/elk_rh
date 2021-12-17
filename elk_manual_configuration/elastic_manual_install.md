@@ -8,6 +8,10 @@
     
     sudo apt-get install openjdk-8-jdk
 
+## Install wget if it is not on the system
+
+    sudo apt-get install wget
+
 # Manual ElK Stack Installation steps
 
 ## 1. Download and install public signing key 

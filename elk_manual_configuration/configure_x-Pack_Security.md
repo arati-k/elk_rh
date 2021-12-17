@@ -15,6 +15,7 @@
 
 ## 4. Setup default user passwords
 
+    sudo systemctl start elasticsearch
     cd /usr/share/elasticsearch/bin
     sudo ./elasticsearch-setup-passwords auto
 
@@ -26,26 +27,29 @@
 
 
 Changed password for user apm_system
-PASSWORD apm_system = ixicTkGDQvsRD4DVud7G
+PASSWORD apm_system = v36QtoSu8ATwwaYWCkrG
+
+Changed password for user kibana_system
+PASSWORD kibana_system = Er4aLuGEOSpn24j7tsu1
 
 Changed password for user kibana
-PASSWORD kibana = bkC6npKCtAMBFWZw4ube
+PASSWORD kibana = Er4aLuGEOSpn24j7tsu1
 
 Changed password for user logstash_system
-PASSWORD logstash_system = 8t8t6FAbBPU1SYthqQnW
+PASSWORD logstash_system = 6zWtKJEm2yNpiTNJ4QvD
 
 Changed password for user beats_system
-PASSWORD beats_system = fRoOzNLyZ5lB8bKD9SaG
+PASSWORD beats_system = t0fk31dO1pGNwSQlUi8z
 
 Changed password for user remote_monitoring_user
-PASSWORD remote_monitoring_user = Ais1CsbZtl0KbIHDHZ2i
+PASSWORD remote_monitoring_user = hCwxqGoShJNoV524wrqK
 
 Changed password for user elastic
-PASSWORD elastic = Vd0DDcdBV5d3gIKRxmVM
-
+PASSWORD elastic = R7nqEiPrj652b68frbwP
 
 ## 5. Add the default username in kibana
 elasticsearch.username: "kibana"
+
 elasticsearch.password: "new_password"
 
 
