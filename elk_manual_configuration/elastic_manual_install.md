@@ -63,6 +63,9 @@
     uncomment server.port
     server.port: 5601
 
+    server base url however this needs to be corrected everytime you start and stop the server
+    server.publicBaseUrl: "http://192.168.1.3:5601/"
+
     change server.host
     server.host: "0.0.0.0"
     
