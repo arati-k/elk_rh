@@ -10,7 +10,7 @@
 
 ## Install wget if it is not on the system
 
-    sudo apt-get install wget
+    sudo apt-get install wget -y
 
 # Manual ElK Stack Installation steps
 

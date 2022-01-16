@@ -35,8 +35,8 @@ xpack.security.enabled: true
 xpack.security.transport.ssl.enabled: true
 xpack.security.transport.ssl.verification_mode: certificate
 xpack.security.transport.ssl.client_authentication: required
-xpack.security.transport.ssl.keystore.path: elastic-certificates.p12
-xpack.security.transport.ssl.truststore.path: elastic-certificates.p12
+xpack.security.transport.ssl.keystore.path: /etc/elasticsearch/certs/elastic-certificates.p12
+xpack.security.transport.ssl.truststore.path: /etc/elasticsearch/certs/elastic-certificates.p12
 
 # 7. On elk-2 and elk-3
 
@@ -87,7 +87,7 @@ IP -> list all node IPs and localhost
 
 #3. in leasticsearch.yml
 xpack.security.http.ssl.enabled: true
-xpack.security.http.ssl.keystore.path: http.p12
+xpack.security.http.ssl.keystore.path: /etc/elasticsearch/certs/http.p12
 
 
 # 3. kibana
@@ -109,3 +109,27 @@ elasticsearch.ssl.certificateAuthorities: [ "/etc/kibana/elasticsearch-ca.pem" ]
 
 # 5. restart kibana
 systemctl restart kibana
+
+
+
+
+Changed password for user apm_system
+PASSWORD apm_system = EKWHsnF4sRsKllfFKplQ
+
+Changed password for user kibana_system
+PASSWORD kibana_system = KfzBd4hxEaDQf47K9i4L
+
+Changed password for user kibana
+PASSWORD kibana = KfzBd4hxEaDQf47K9i4L
+
+Changed password for user logstash_system
+PASSWORD logstash_system = EgJ61MSjZCncv8rY2nLG
+
+Changed password for user beats_system
+PASSWORD beats_system = lL2WWSSY30ofeUpIoaSh
+
+Changed password for user remote_monitoring_user
+PASSWORD remote_monitoring_user = tvFNNbWA5pVaiOHVIsGE
+
+Changed password for user elastic
+PASSWORD elastic = RhVhgiFgB2TS1mPsS5Db
