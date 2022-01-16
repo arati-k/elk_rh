@@ -2,14 +2,17 @@
 # https://gitlab.com/LabIT/elasticsearch.git
 # Pre-requisites 
 
-## Import Elasticsearch GPG Key
+## Download ZIP
+    https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.16.3-windows-x86_64.zip
+    https://artifacts.elastic.co/downloads/kibana/kibana-7.16.3-windows-x86_64.zip
 
-    rpm --import https://artifacts.elastic.co/GPG-KEY-elasticsearch
-
-## Installing from the RPM repository
+    
+## Run elasticsearch from command line
+    .\bin\elasticsearch.bat
 
     touch /etc/yum.repos.d/elasticsearch.repo
     touch /etc/yum.repos.d/kibana.repo
+    touch /etc/yum.repos.d/logstash.repo
 
     ### Add the following to elasticsearch.repo
     [elasticsearch]
@@ -31,6 +34,16 @@
     autorefresh=1
     type=rpm-md
 
+    ### Add the following to Kibana.repo
+    [logstash-7.x]
+    name=Elastic repository for 7.x packages
+    baseurl=https://artifacts.elastic.co/packages/7.x/yum
+    gpgcheck=1
+    gpgkey=https://artifacts.elastic.co/GPG-KEY-elasticsearch
+    enabled=1
+    autorefresh=1
+    type=rpm-md
+
 
 ## Install elasticsearch 
     sudo yum install --enablerepo=elasticsearch elasticsearch
@@ -38,6 +51,9 @@
 
 ## Install Kibana   
     sudo yum install kibana
+
+## Install logstash
+    sudo yum install logstash
 
 
 ## 5. configure elasticsearch

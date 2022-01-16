@@ -2,11 +2,9 @@
 # https://gitlab.com/LabIT/elasticsearch.git
 # Pre-requisites 
 
-## Install Java
+## Update System
 
     sudo apt-get update
-    
-    sudo apt-get install openjdk-8-jdk
 
 ## Install wget if it is not on the system
 
