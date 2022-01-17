@@ -29,3 +29,33 @@
 
    ./logstash -e 'input { stdin { } } output { stdout {} }'
 
+## 7. Running logstash on linux
+
+    /usr/share/logstash/bin/logstash -f /path/to/pipeline_config
+
+
+}
+
+## 8. Create a logstash Index
+
+PUT /csv_index
+{
+  "settings": {
+    "number_of_shards": 1
+  },
+  "mappings": {
+    "properties": {
+      "rank": {"type": "text"},
+      "tier": {"type": "text"},
+      "username": {"type": "text"},
+      "join_date": {"type": "text"},
+      "gold_medals": {"type": "text"},
+      "silver_medals": {"type": "text"},
+      "bronze_medals": {"type": "text"},
+      "points": { "type": "text" }
+    }
+  }
+
+## 9. Create an Index Pattern
+
+   ### Use Default @timestamp field for timestamp

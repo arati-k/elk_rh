@@ -2,64 +2,24 @@
 # https://gitlab.com/LabIT/elasticsearch.git
 # Pre-requisites 
 
-## Download ZIP
+## 1. Download software
+    ### 1. Elasticsearch
     https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.16.3-windows-x86_64.zip
+    ### 2. Kibana
     https://artifacts.elastic.co/downloads/kibana/kibana-7.16.3-windows-x86_64.zip
+    ### 3. NSSM 
+    https://nssm.cc/download
+    ### 4. 7zip
+    https://www.7-zip.org/download.html
+    ### 5. Visual studio code
+    https://code.visualstudio.com/download
+
+## 2. Extract elasticsearch and kibana using 7zip
+
+## 3. configure elasticsearch
 
     
-## Run elasticsearch from command line
-    .\bin\elasticsearch.bat
-
-    touch /etc/yum.repos.d/elasticsearch.repo
-    touch /etc/yum.repos.d/kibana.repo
-    touch /etc/yum.repos.d/logstash.repo
-
-    ### Add the following to elasticsearch.repo
-    [elasticsearch]
-    name=Elasticsearch repository for 7.x packages
-    baseurl=https://artifacts.elastic.co/packages/7.x/yum
-    gpgcheck=1
-    gpgkey=https://artifacts.elastic.co/GPG-KEY-elasticsearch
-    enabled=0
-    autorefresh=1
-    type=rpm-md
-
-    ### Add the following to kibana.repo
-    [kibana-7.x]
-    name=Kibana repository for 7.x packages
-    baseurl=https://artifacts.elastic.co/packages/7.x/yum
-    gpgcheck=1
-    gpgkey=https://artifacts.elastic.co/GPG-KEY-elasticsearch
-    enabled=1
-    autorefresh=1
-    type=rpm-md
-
-    ### Add the following to Kibana.repo
-    [logstash-7.x]
-    name=Elastic repository for 7.x packages
-    baseurl=https://artifacts.elastic.co/packages/7.x/yum
-    gpgcheck=1
-    gpgkey=https://artifacts.elastic.co/GPG-KEY-elasticsearch
-    enabled=1
-    autorefresh=1
-    type=rpm-md
-
-
-## Install elasticsearch 
-    sudo yum install --enablerepo=elasticsearch elasticsearch
-    
-
-## Install Kibana   
-    sudo yum install kibana
-
-## Install logstash
-    sudo yum install logstash
-
-
-## 5. configure elasticsearch
-
-    sudo su
-    nano /etc/elasticsearch/elasticsearch.yml
+    Open  elasticsearch/config/elasticsearch.yml in an editor
 
     change cluster name
     cluster.name: demo-elk  
@@ -73,17 +33,9 @@
     setup discovery.type as single node
     discovery.type: single-node
 
-## 6. Start Elasticsearch service
-
-    sudo systemctl start elasticsearch
-
-## 7. validate Elasticsearch cluster health
-
-    curl -XGET http://localhost:9200/_cluster/health?pretty
-
-## 8. configure kibana
+## 4. Configure Kibana
     
-    nano /etc/kibana/kibana.yml
+    Open kibana/config/kibana.yml
 
     uncomment server.port
     server.port: 5601
@@ -100,13 +52,34 @@
     uncomment elasticsearch.host
     elasticsearch.hosts: ["http://localhost:9200"]
     
-## 9. start Kibana service
 
-    systemctl start kibana
+
+
     
-## 10. enable elasticsearch and kibana
+## 5. Run elasticsearch from command line
+    .\bin\elasticsearch-service.bat install
 
-    systemctl enable elasticsearch
-    systemctl enable kibana
+## 6. Start elasticsearch service 
+    services.msc -> start service
+
+    ### Test connectivity
+    url -XGET "http://localhost:9200/_cluster/health?pretty
+
+
+## 6. Install Kibana using NSSM
+    cd nssm/win64/
+    ./nssm install kibana
+
+    ####Add Kibana service path from kibana/bin/kibana
+
+    ###Start Kibana service from NSSM or services.msc
+ 
+    ### Test connectivity
+    http://10.0.2.15:5601 or http://localhost:5601
+
+
+
+
+
     
   
