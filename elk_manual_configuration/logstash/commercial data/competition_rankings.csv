@@ -1,4 +1,4 @@
-Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
+rank;tier;username;join_date;gold_medals;silver_medals;bronze_medals;points
 1;grandmaster;Dieter;2018;26;10;3;278218
 2;grandmaster;bestfitting;2017;35;10;1;219575
 3;grandmaster;Psi;2012;23;7;0;190065
@@ -30,7 +30,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 29;grandmaster;SeungKee;2017;5;1;0;73323
 30;grandmaster;Theo Viel;2018;9;12;3;72293
 31;master;Nischay Dhankhar;2020;4;15;4;68141
-32;master;Mathurin Aché;2012;6;35;46;66940
+32;master;Mathurin Achï¿½;2012;6;35;46;66940
 33;expert;Kirderf;2020;0;8;21;66885
 34;grandmaster;Tom Van de Wiele;2016;7;1;0;66622
 35;grandmaster;Kun Hao Yeh;2018;9;18;6;65951
@@ -122,7 +122,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 121;grandmaster;Abhishek Thakur;2011;20;36;22;35806
 122;expert;Bo Peng;2015;0;7;12;35707
 123;master;Givan;2019;2;6;2;35305
-124;expert;Harijs Ceri?š;2019;0;5;15;35108
+124;expert;Harijs Ceri?ï¿½;2019;0;5;15;35108
 125;grandmaster;0ct0pus;2017;7;9;9;35100
 126;master;Ivan Panshin;2019;3;7;6;34961
 127;master;Eduardo Peynetti;2021;1;2;0;34835
@@ -212,7 +212,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 211;master;kami;2019;1;2;2;26254
 212;master;OsciiArt;2017;3;8;3;26247
 213;grandmaster;tarobxl;2016;6;16;14;26138
-214;expert;Théo Cachet;2020;1;1;0;26119
+214;expert;Thï¿½o Cachet;2020;1;1;0;26119
 215;master;DmitryS;2016;3;7;4;26029
 216;grandmaster;MPWARE;2017;5;8;2;26004
 217;master;Elahi;2019;1;3;5;25885
@@ -306,7 +306,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 305;expert;icecuber;2017;2;0;0;21516
 306;master;Matthias;2016;3;2;0;21509
 307;expert;Chia-Ta Tsai;2015;0;4;8;21506
-308;master;Alexandre Cadrin-Chênevert;2017;2;2;3;21502
+308;master;Alexandre Cadrin-Chï¿½nevert;2017;2;2;3;21502
 309;expert;Jagadish Sivakumar;2020;0;5;6;21488
 310;master;deoxy;2020;1;2;1;21448
 311;master;Proletheus;2019;1;7;3;21420
@@ -377,7 +377,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 376;expert;Batake;2019;0;5;7;19088
 377;master;Amed;2019;2;4;5;19075
 378;expert;ankit maurya;2019;0;1;6;19075
-379;master;?àm Tr?ng Tuyên;2021;2;5;1;19059
+379;master;?ï¿½m Tr?ng Tuyï¿½n;2021;2;5;1;19059
 380;master;T0m;2020;1;4;0;19053
 381;master;Hogg AP;2019;2;4;0;18928
 382;expert;Niranjan Singh;2014;0;3;7;18888
@@ -391,7 +391,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 390;expert;Alex;2019;0;6;5;18299
 391;master;Arthur Llau;2016;2;13;18;18191
 392;expert;yukiZ;2020;0;7;4;18169
-393;master;Bùi Nh?t Tr??ng;2021;2;5;1;18147
+393;master;Bï¿½i Nh?t Tr??ng;2021;2;5;1;18147
 394;expert;Yoshihiro Nishizono;2019;0;8;11;18081
 395;expert;Aizaki;2019;0;6;3;18059
 396;master;ouyangxuan;2018;3;7;0;18031
@@ -515,13 +515,13 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 514;master;ln;2015;3;7;3;15819
 515;expert;Pietro Marinelli;2013;0;16;20;15808
 516;grandmaster;DavidGbodiOdaibo;2015;5;13;11;15804
-517;expert;( ?° ?? ?°);2017;0;7;3;15740
+517;expert;( ?ï¿½ ?? ?ï¿½);2017;0;7;3;15740
 518;master;ggsddu;2018;3;8;3;15712
 519;expert;Kerem Turgutlu;2016;0;6;2;15697
 520;master;Sergei Chudov;2020;1;2;0;15656
 521;expert;minguin;2019;0;2;7;15635
 522;expert;nuranura;2019;0;1;3;15586
-523;master;Javier Martín;2019;2;3;1;15561
+523;master;Javier Martï¿½n;2019;2;3;1;15561
 524;expert;K-NKSM;2016;2;0;0;15521
 525;master;Vladislav Ostankovich;2018;1;4;1;15510
 526;master;dvtoan7997;2020;1;3;1;15500
@@ -566,7 +566,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 565;master;CatEek;2018;2;7;3;14468
 566;expert;Milcheis;2020;0;3;2;14449
 567;expert;Muhammad Ahmed;2019;0;4;7;14392
-568;master;Ertuðrul Demir;2020;2;4;1;14386
+568;master;Ertuï¿½rul Demir;2020;2;4;1;14386
 569;master;Xie29;2020;1;5;2;14378
 570;expert;Seawolf;2019;1;1;1;14370
 571;expert;Anurag Trivedi;2016;0;1;2;14331
@@ -593,7 +593,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 592;expert;Stanislav Blinov;2019;0;3;5;13935
 593;expert;Yoshio Sugiyama;2020;1;1;1;13925
 594;master;rincha;2018;1;4;0;13915
-595;expert;Hannes Öhler;2019;0;3;1;13828
+595;expert;Hannes ï¿½hler;2019;0;3;1;13828
 596;expert;Gabriel Preda;2017;0;0;4;13817
 597;grandmaster;ValeriyBabushkin;2017;6;21;4;13795
 598;master;Konstantin Yakovlev;2019;1;5;1;13792
@@ -643,7 +643,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 642;expert;takaito;2020;0;1;1;12991
 643;expert;kiyomomo;2017;0;4;5;12967
 644;expert;blue0620;2015;0;3;2;12958
-645;master;Matthieu Planté;2020;1;3;0;12955
+645;master;Matthieu Plantï¿½;2020;1;3;0;12955
 646;master;copasta;2019;1;6;5;12945
 647;expert;Ayman Khalafallah;2014;0;2;5;12937
 648;master;wayfarer;2018;1;4;2;12918
@@ -755,7 +755,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 754;master;FelipeKitamura;2017;3;2;2;11356
 755;expert;Leonrain;2020;0;5;2;11354
 756;expert;Riku Suzuki;2018;0;1;4;11351
-757;master;Daniel Gärber;2020;1;2;0;11345
+757;master;Daniel Gï¿½rber;2020;1;2;0;11345
 758;expert;kzykmyzw;2018;0;5;2;11344
 759;master;Nikolay Prokoptsev;2018;2;3;3;11325
 760;expert;Saksham_Aggarwal;2020;0;3;5;11313
@@ -919,7 +919,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 918;master;KulishYurii;2015;2;12;2;9592
 919;master;qyxs;2021;1;2;0;9586
 920;master;ivovkanych;2016;3;0;0;9569
-921;master;Aindriú;2014;2;10;10;9562
+921;master;Aindriï¿½;2014;2;10;10;9562
 922;expert;Wallace Sui;2018;1;0;1;9557
 923;expert;Shu;2020;0;4;2;9546
 924;expert;Gultekin Gunduz;2019;1;1;3;9545
@@ -952,7 +952,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 951;expert;mzotkiew;2013;1;0;2;9275
 952;expert;housuke;2020;0;5;1;9263
 953;master;glazed;2011;2;3;2;9254
-954;master;Möbius;2017;2;3;2;9254
+954;master;Mï¿½bius;2017;2;3;2;9254
 955;expert;Aishik Rakshit;2021;0;1;2;9247
 956;master;Bohdan Zhurakovskyi;2014;2;10;2;9242
 957;expert;Sandeep Attree;2016;2;0;1;9237
@@ -1031,7 +1031,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 1030;master;kiccho;2017;1;2;0;8576
 1031;expert;Roman;2016;0;2;5;8552
 1032;expert;Sergey Guskov;2019;0;1;5;8549
-1033;expert;Jan Schlüter;2019;1;1;0;8548
+1033;expert;Jan Schlï¿½ter;2019;1;1;0;8548
 1034;expert;pp;2021;0;1;3;8544
 1035;expert;suga93;2017;2;0;1;8537
 1036;expert;Artem Toporov;2019;0;2;4;8529
@@ -1335,7 +1335,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 1334;master;YK;2018;1;5;0;6813
 1335;expert;Himaeda;2020;0;2;0;6811
 1336;master;Yifan Xie;2014;5;7;4;6808
-1337;expert;Aleix López;2019;0;3;2;6807
+1337;expert;Aleix Lï¿½pez;2019;0;3;2;6807
 1338;expert;Sachin Prabhu;2014;0;4;4;6806
 1339;expert;Greg Hamel;2014;0;4;8;6804
 1340;expert;taricchen;2021;0;4;2;6804
@@ -1560,7 +1560,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 1559;expert;???????;2020;0;2;2;5840
 1560;expert;Roman Weilguny;2020;0;1;5;5838
 1561;expert;megner;2020;0;1;2;5836
-1562;expert;Furkan Ömerustaoðlu;2021;0;2;1;5836
+1562;expert;Furkan ï¿½merustaoï¿½lu;2021;0;2;1;5836
 1563;expert;yang;2018;1;0;2;5835
 1564;master;THLUO;2017;4;6;0;5833
 1565;expert;mikkojkvaak;2018;0;3;4;5830
@@ -1588,7 +1588,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 1587;expert;Parth Dhameliya;2021;0;3;1;5766
 1588;expert;Tarek Hamdi;2018;0;0;3;5765
 1589;expert;TiffanyQ;2020;0;3;2;5765
-1590;master;Farmár;2013;4;0;0;5764
+1590;master;Farmï¿½r;2013;4;0;0;5764
 1591;master;Ilia Denisov;2016;1;2;1;5759
 1592;expert;Kuo.Su;2020;0;2;0;5748
 1593;expert;Kalyan Kumar Pichuka;2018;0;2;1;5741
@@ -1626,7 +1626,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 1625;expert;Narek Maloyan;2017;0;2;4;5627
 1626;expert;fffrrt;2019;0;3;0;5624
 1627;expert;OKA;2020;0;2;1;5612
-1628;expert;dataista0 (Julián Peller);2017;0;1;1;5609
+1628;expert;dataista0 (Juliï¿½n Peller);2017;0;1;1;5609
 1629;expert;Paras Varshney;2020;0;2;1;5598
 1630;expert;Erik M;2018;2;0;0;5595
 1631;expert;Kshitij Mohan;2020;0;4;2;5592
@@ -1688,7 +1688,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 1687;expert;talk is cheap;2021;0;3;0;5389
 1688;expert;exotol;2019;0;0;2;5388
 1689;expert;Iga Kakeru;2021;0;1;2;5388
-1690;master;João Pedro Peinado;2017;1;3;5;5386
+1690;master;Joï¿½o Pedro Peinado;2017;1;3;5;5386
 1691;expert;wgz123;2021;0;2;0;5386
 1692;grandmaster;Stefan Stefanov;2011;5;6;6;5382
 1693;expert;slime;2021;0;2;0;5381
@@ -1909,7 +1909,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 1908;expert;Ghassen Alaya;2021;0;1;2;4818
 1909;expert;Avinash Anand;2018;0;1;2;4813
 1910;expert;BokingChen;2020;0;2;1;4813
-1911;expert;Bessenyei Szilárd;2020;1;1;1;4813
+1911;expert;Bessenyei Szilï¿½rd;2020;1;1;1;4813
 1912;expert;cadog;2020;0;1;1;4813
 1913;expert;NakedKoala;2018;0;2;1;4812
 1914;expert;NikoNeko;2019;0;2;2;4811
@@ -1985,7 +1985,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 1984;expert;mmmbbb;2020;0;2;2;4614
 1985;grandmaster;clustifier;2013;7;31;19;4612
 1986;expert;Jomogi;2021;0;0;3;4612
-1987;expert;João Paulo Martins;2015;0;2;1;4604
+1987;expert;Joï¿½o Paulo Martins;2015;0;2;1;4604
 1988;expert;gordon;2018;0;2;0;4604
 1989;expert;Jebq;2017;0;6;2;4602
 1990;master;Seifeddine Fezzani;2018;1;2;3;4601
@@ -2109,7 +2109,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 2108;expert;Icfstat;2013;0;6;2;4218
 2109;expert;mavillan;2015;0;3;1;4217
 2110;expert;Vitaly Pavlov;2018;1;1;1;4217
-2111;expert;Claudio Verdú Ruiz;2018;0;2;0;4216
+2111;expert;Claudio Verdï¿½ Ruiz;2018;0;2;0;4216
 2112;master;Vinicius;2017;1;3;4;4213
 2113;expert;Phiesh7w;2020;0;1;1;4213
 2114;grandmaster;Matias Thayer;2015;5;9;3;4212
@@ -2300,7 +2300,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 2299;master;Micha? Sypetkowski;2018;1;2;1;3777
 2300;master;yukari17;2015;2;4;0;3775
 2301;expert;Noko;2019;0;1;1;3775
-2302;expert;Henrique Mendonça;2016;0;4;3;3773
+2302;expert;Henrique Mendonï¿½a;2016;0;4;3;3773
 2303;expert;yufuin;2019;1;1;0;3770
 2304;expert;alan chen;2019;0;0;4;3767
 2305;expert;Anton Sakharov;2018;0;2;0;3765
@@ -2415,7 +2415,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 2414;expert;Dmitriy;2019;0;0;2;3557
 2415;grandmaster;Alexey Noskov;2015;6;11;1;3546
 2416;expert;John Wakefield;2015;0;1;1;3545
-2417;expert;Krisztián Fekete;2019;0;2;1;3543
+2417;expert;Krisztiï¿½n Fekete;2019;0;2;1;3543
 2418;master;ChrisCC;2015;2;6;5;3542
 2419;grandmaster;Medrr;2012;6;9;0;3541
 2420;expert;joeyoji;2021;0;2;0;3541
@@ -2466,7 +2466,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 2465;expert;Shun Fukuda;2018;0;2;0;3459
 2466;expert;yzhao;2020;1;0;1;3454
 2467;expert;sRoger;2020;0;2;0;3454
-2468;expert;Guillermo García Cobo;2021;0;2;1;3454
+2468;expert;Guillermo Garcï¿½a Cobo;2021;0;2;1;3454
 2469;master;Ovsov Nikita;2017;1;3;0;3453
 2470;expert;Kon;2019;0;4;1;3452
 2471;expert;Nilabha Bhattacharya;2015;0;1;6;3450
@@ -2543,7 +2543,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 2542;expert;nonaryr;2015;0;2;6;3328
 2543;master;Konstantin Maksimov;2015;1;4;6;3325
 2544;expert;Jiazhen Xi;2016;0;5;5;3323
-2545;expert;Gábor Hollandi;2018;0;0;2;3323
+2545;expert;Gï¿½bor Hollandi;2018;0;0;2;3323
 2546;expert;Dmitry Terenin;2017;0;0;2;3322
 2547;expert;wychwood;2019;0;2;2;3321
 2548;expert;Xcodedd;2019;0;2;0;3319
@@ -2666,7 +2666,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 2665;expert;Alex Kaechele;2018;0;2;0;3130
 2666;expert;Param1;2016;0;1;2;3127
 2667;expert;DN;2019;0;2;2;3125
-2668;expert;Märchen Star;2021;0;1;1;3125
+2668;expert;Mï¿½rchen Star;2021;0;1;1;3125
 2669;master;Yashwanth Reddy;2013;1;4;5;3124
 2670;master;Shubin;2014;2;12;6;3124
 2671;expert;Dezs? Ribli;2016;0;4;2;3124
@@ -2763,10 +2763,10 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 2762;expert;Ishan Bhandari;2021;0;2;0;2973
 2763;expert;ricchan-boy;2017;0;1;1;2972
 2764;expert;Swati Anand;2020;0;1;1;2972
-2765;grandmaster;José A. Guerrero;2011;11;21;11;2971
+2765;grandmaster;Josï¿½ A. Guerrero;2011;11;21;11;2971
 2766;master;ZadrraS;2015;2;2;3;2969
 2767;expert;Micha? Choi?ski;2018;0;1;1;2965
-2768;grandmaster;José H. Solórzano;2011;5;8;4;2964
+2768;grandmaster;Josï¿½ H. Solï¿½rzano;2011;5;8;4;2964
 2769;expert;Utkarsh Tripathi;2018;0;1;2;2963
 2770;expert;Captain;2019;1;1;1;2963
 2771;expert;Du_yuan;2020;0;2;0;2963
@@ -2894,7 +2894,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 2893;expert;Hengw Dai;2021;0;1;1;2784
 2894;expert;Dhananjay Raut;2019;0;2;1;2783
 2895;expert;tkato;2017;1;1;0;2781
-2896;expert;Björn;2016;0;0;2;2779
+2896;expert;Bjï¿½rn;2016;0;0;2;2779
 2897;expert;Eric A. Scuccimarra;2018;0;1;2;2779
 2898;expert;Rafa? Po?wiata;2018;0;2;1;2777
 2899;expert;zephyr666666;2021;0;1;1;2775
@@ -2916,7 +2916,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 2915;expert;Wenrui Kong;2017;0;3;1;2760
 2916;expert;hoge;2019;0;2;0;2760
 2917;expert;Hai Pham;2017;0;3;3;2759
-2918;expert;Emir KOÇAK;2020;0;1;2;2758
+2918;expert;Emir KOï¿½AK;2020;0;1;2;2758
 2919;master;JohnJayChou;2018;1;2;3;2754
 2920;expert;hahaha;2018;0;2;3;2753
 2921;expert;Yan;2020;1;1;0;2748
@@ -2972,7 +2972,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 2971;expert;Danting Zeng;2021;0;1;1;2679
 2972;expert;i-aki.y;2015;0;2;2;2677
 2973;expert;"dsh -;";2015;0;0;2;2675
-2974;master;Humberto Brandão, Ph.D.;2016;1;4;4;2674
+2974;master;Humberto Brandï¿½o, Ph.D.;2016;1;4;4;2674
 2975;expert;nekoder;2018;0;4;0;2670
 2976;expert;Sylas;2015;0;0;2;2669
 2977;expert;Jerry;2018;1;0;1;2669
@@ -3132,7 +3132,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 3131;expert;zeyu;2020;0;1;2;2465
 3132;expert;GoldenWater;2021;0;1;1;2465
 3133;master;VVS0713;2014;1;2;3;2462
-3134;expert;Krizsó Gergely;2017;0;1;1;2461
+3134;expert;Krizsï¿½ Gergely;2017;0;1;1;2461
 3135;master;Zheng Li;2018;2;1;0;2461
 3136;master;You Jia;2017;2;2;1;2459
 3137;expert;JesseFischer;2016;0;0;2;2454
@@ -3421,7 +3421,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 3420;expert;C L Davies;2020;0;1;1;2127
 3421;expert;Vikas Pandey;2016;0;1;6;2126
 3422;expert;payanotty;2020;0;1;1;2126
-3423;expert;Miguel González González;2021;0;1;1;2126
+3423;expert;Miguel Gonzï¿½lez Gonzï¿½lez;2021;0;1;1;2126
 3424;expert;AndrewWang;2017;0;3;2;2125
 3425;expert;tsurumeso;2018;0;3;0;2125
 3426;expert;ohnabe;2014;0;5;3;2123
@@ -3664,7 +3664,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 3663;expert;Ilyas;2018;0;3;1;1893
 3664;expert;glyph;2019;0;1;1;1893
 3665;expert;Alexey Makeev;2018;0;1;1;1891
-3666;expert;Rodrigo Gómez;2017;1;1;0;1889
+3666;expert;Rodrigo Gï¿½mez;2017;1;1;0;1889
 3667;expert;dayoneistoday;2021;0;1;1;1889
 3668;expert;Huiyuan;2019;0;1;2;1887
 3669;expert;Daniel J;2016;0;1;1;1886
@@ -3710,7 +3710,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 3709;expert;Taro Masuda;2019;0;2;0;1840
 3710;expert;rk0033;2018;0;2;0;1839
 3711;expert;Dmitry Yemelyanov;2020;0;0;2;1839
-3712;expert;Ole Kröger;2015;0;3;1;1837
+3712;expert;Ole Krï¿½ger;2015;0;3;1;1837
 3713;expert;Maria Wellen;2017;0;0;3;1837
 3714;expert;charlie_s;2019;0;2;0;1835
 3715;expert;kumi cho;2019;0;0;2;1835
@@ -3749,7 +3749,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 3748;expert;minu;2014;1;1;0;1804
 3749;expert;YLeF;2015;1;1;2;1804
 3750;expert;FlyingWing;2016;1;1;0;1804
-3751;expert;Eduardo Martín Izquierdo;2017;0;2;0;1803
+3751;expert;Eduardo Martï¿½n Izquierdo;2017;0;2;0;1803
 3752;expert;adam.j;2016;0;2;0;1802
 3753;expert;Szymon;2018;0;2;0;1802
 3754;expert;Cui YiJun;2021;0;1;1;1802
@@ -3805,7 +3805,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 3804;expert;Taksants Maksim;2018;0;2;0;1757
 3805;expert;???;2021;0;1;1;1757
 3806;master;wleite;2013;3;3;1;1756
-3807;expert;Daniel Sánchez Santolaya;2016;0;3;0;1754
+3807;expert;Daniel Sï¿½nchez Santolaya;2016;0;3;0;1754
 3808;expert;Kyle Richardson;2018;2;0;0;1754
 3809;expert;Manan;2018;0;1;1;1752
 3810;master;sagol;2016;1;5;1;1751
@@ -3857,7 +3857,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 3856;expert;Index;2020;0;2;1;1700
 3857;master;Cardal;2015;4;0;0;1699
 3858;expert;Eutune;2019;0;4;1;1699
-3859;expert;Jô Odagiri;2020;0;1;1;1699
+3859;expert;Jï¿½ Odagiri;2020;0;1;1;1699
 3860;expert;hayaocelot;2019;1;0;1;1698
 3861;expert;rightgoon;2019;0;1;1;1698
 3862;expert;?????????;2021;0;1;1;1698
@@ -3919,7 +3919,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 3918;master;sasakama;2016;1;2;0;1645
 3919;expert;excel;2018;0;2;1;1645
 3920;expert;Peter;2018;0;2;2;1644
-3921;expert;Raphaël CC;2018;0;3;0;1643
+3921;expert;Raphaï¿½l CC;2018;0;3;0;1643
 3922;expert;kehai;2019;0;1;2;1643
 3923;expert;Taicheng Guo;2016;0;0;2;1642
 3924;master;Minchul Shin;2018;2;1;0;1642
@@ -4035,7 +4035,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 4034;master;Kiryl Zhdanovich;2013;1;3;1;1533
 4035;expert;m1ckyro5a;2017;0;4;1;1532
 4036;expert;sontt227;2020;0;2;0;1532
-4037;expert;Daithí O'Manacháin;2017;0;2;2;1531
+4037;expert;Daithï¿½ O'Manachï¿½in;2017;0;2;2;1531
 4038;expert;Bing;2019;0;0;2;1530
 4039;expert;Ohmyroi;2020;0;0;2;1530
 4040;expert;Proof;2017;0;0;4;1529
@@ -4103,8 +4103,8 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 4102;expert;Pawel;2018;0;0;2;1484
 4103;master;saurk;2014;1;2;7;1483
 4104;expert;hiroshun;2017;0;2;0;1482
-4105;expert;Péter Szécsi;2018;0;1;1;1482
-4106;expert;Mario Parreño Lara;2018;0;1;2;1481
+4105;expert;Pï¿½ter Szï¿½csi;2018;0;1;1;1482
+4106;expert;Mario Parreï¿½o Lara;2018;0;1;2;1481
 4107;expert;AlexeyShimko;2016;0;1;2;1480
 4108;expert;matsu;2014;0;1;3;1479
 4109;expert;Shashank;2018;0;0;2;1479
@@ -4159,7 +4159,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 4158;expert;r41;2018;0;1;1;1431
 4159;expert;Elisey Gusev;2018;0;0;4;1430
 4160;expert;Tsubasa Tanaka;2019;0;1;2;1429
-4161;expert;Al-Khwârizmî;2016;0;1;1;1428
+4161;expert;Al-Khwï¿½rizmï¿½;2016;0;1;1;1428
 4162;expert;Behnam Molaee;2019;0;1;1;1428
 4163;expert;Alex Glinsky;2016;0;2;2;1425
 4164;expert;Yifei Tao888;2021;0;1;1;1423
@@ -4233,7 +4233,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 4232;master;Chris Cross;2016;1;3;0;1372
 4233;expert;Iary Joseph;2017;0;2;2;1371
 4234;expert;process531;2019;0;3;0;1371
-4235;expert;André Costa;2013;0;2;0;1370
+4235;expert;Andrï¿½ Costa;2013;0;2;0;1370
 4236;expert;Rares Barbantan;2017;0;0;2;1370
 4237;expert;Vadim Nareyko;2018;0;2;2;1370
 4238;expert;kspatel;2020;0;1;1;1368
@@ -4251,7 +4251,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 4250;expert;germayne;2017;0;2;4;1360
 4251;expert;Howard The Duck;2019;0;0;3;1360
 4252;expert;shimizu-shunsuke;2020;0;1;1;1359
-4253;expert;Kjetil Åmdal-Sævik;2015;0;5;1;1357
+4253;expert;Kjetil ï¿½mdal-Sï¿½vik;2015;0;5;1;1357
 4254;expert;Botond Egri;2016;0;2;2;1357
 4255;expert;SelinaCCC;2020;0;1;1;1357
 4256;expert;NSK;2014;0;3;1;1356
@@ -4311,7 +4311,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 4310;expert;Ashish Gupta;2017;0;1;1;1320
 4311;expert;Nicole Finnie;2018;0;3;0;1320
 4312;expert;zsy235;2020;0;1;1;1320
-4313;expert;Andrés Cardoso;2017;0;0;2;1319
+4313;expert;Andrï¿½s Cardoso;2017;0;0;2;1319
 4314;expert;Two Hundred Small Cute;2019;0;0;3;1319
 4315;expert;Wei Xie;2015;0;0;2;1318
 4316;expert;????;2016;0;0;6;1318
@@ -4478,7 +4478,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 4477;expert;liubin;2014;0;2;0;1191
 4478;expert;Ryoungwoo Jang;2015;0;2;0;1191
 4479;expert;Claudio Giorgio Giancaterino;2016;0;1;1;1191
-4480;expert;Michaël Karpe;2018;0;0;2;1191
+4480;expert;Michaï¿½l Karpe;2018;0;0;2;1191
 4481;expert;Bob Wang;2018;0;1;1;1191
 4482;expert;tonish;2020;0;1;1;1191
 4483;expert;GarethJones;2016;1;0;2;1190
@@ -4486,7 +4486,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 4485;master;mashdi;2016;1;3;3;1189
 4486;expert;pkugoodspeed;2017;0;0;2;1188
 4487;expert;JasonX;2019;0;1;1;1188
-4488;expert;Jürgen Schiefele;2019;0;1;1;1187
+4488;expert;Jï¿½rgen Schiefele;2019;0;1;1;1187
 4489;master;Mikhail;2011;4;6;3;1186
 4490;expert;ShivamGarg;2016;0;2;1;1186
 4491;expert;a little fat;2019;0;1;1;1185
@@ -4495,8 +4495,8 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 4494;expert;Maksim Kholiavchenko;2017;0;2;1;1184
 4495;expert;yy.kim0810;2019;0;2;1;1184
 4496;expert;camilleqiao;2019;0;2;0;1184
-4497;expert;Branislav Holländer;2018;0;1;1;1183
-4498;master;César Parra Rojas;2018;1;2;0;1183
+4497;expert;Branislav Hollï¿½nder;2018;0;1;1;1183
+4498;master;Cï¿½sar Parra Rojas;2018;1;2;0;1183
 4499;expert;kakakakaka;2020;0;0;2;1183
 4500;master;Hillview;2012;3;8;5;1182
 4501;expert;ADITYA KUMAR (Negi);2019;0;2;0;1181
@@ -4569,7 +4569,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 4568;expert;zyypzp0314;2020;0;1;1;1130
 4569;expert;Johnny;2020;0;1;2;1129
 4570;expert;WenD;2018;0;0;2;1128
-4571;master;( ?° ?? ?°);2013;2;5;3;1127
+4571;master;( ?ï¿½ ?? ?ï¿½);2013;2;5;3;1127
 4572;expert;SwordFaith;2018;0;0;2;1127
 4573;expert;Maksym;2018;0;0;3;1124
 4574;expert;Marc;2018;0;1;1;1124
@@ -4643,7 +4643,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 4642;expert;Allent Dan;2019;0;2;0;1084
 4643;expert;cvlt_mao;2019;0;1;1;1083
 4644;expert;Vlad A;2019;0;1;1;1083
-4645;expert;François;2016;0;1;3;1082
+4645;expert;Franï¿½ois;2016;0;1;3;1082
 4646;expert;Krishnan;2017;0;1;2;1081
 4647;expert;Xiangxun Lu;2018;0;3;0;1081
 4648;expert;Frost;2019;0;2;0;1081
@@ -4827,7 +4827,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 4826;master;Bowen-Yuan;2014;2;1;0;977
 4827;expert;RunningWolf;2015;1;1;2;977
 4828;expert;Zhuoxi Bai;2020;0;1;1;977
-4829;master;Gábor S;2012;2;2;2;976
+4829;master;Gï¿½bor S;2012;2;2;2;976
 4830;master;Gino;2015;1;9;12;976
 4831;expert;Ziv Cohen;2016;0;0;6;976
 4832;expert;Sion Wang;2018;0;0;3;976
@@ -4892,7 +4892,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 4891;expert;XI;2019;0;1;1;949
 4892;master;BorisV;2016;1;2;0;948
 4893;expert;Filemide;2018;0;1;2;948
-4894;expert;Güner ALPAYDIN;2019;0;1;1;948
+4894;expert;Gï¿½ner ALPAYDIN;2019;0;1;1;948
 4895;expert;chhaatra;2017;0;0;2;947
 4896;expert;KNKN;2019;0;0;2;947
 4897;expert;Yurii Rebryk;2016;0;2;0;946
@@ -4933,7 +4933,7 @@ Rank;Tier;Username;Join Date;Gold Medals;Silver Medals;Bronze Medals;Points
 4932;master;desertnaut;2012;1;3;3;926
 4933;expert;Aaron;2014;0;3;0;926
 4934;master;Rinnegan;2016;1;5;2;926
-4935;expert;Øystein Schønning-Johansen;2016;0;3;3;926
+4935;expert;ï¿½ystein Schï¿½nning-Johansen;2016;0;3;3;926
 4936;expert;Rohit Jain;2015;0;0;3;925
 4937;expert;captain13;2020;0;0;2;925
 4938;expert;pim;2011;0;6;6;924
