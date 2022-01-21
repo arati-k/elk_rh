@@ -27,25 +27,25 @@
 
 
 Changed password for user apm_system
-PASSWORD apm_system = BDL5I4xGAAzwRSpEYEUZ
+PASSWORD apm_system = 2oNBnEkD2E00JcZ0mQk8
 
 Changed password for user kibana_system
-PASSWORD kibana_system = dn77RMXqhIAzJNowrXtP
+PASSWORD kibana_system = nzze23DH1oci9KaMRkAZ
 
 Changed password for user kibana
-PASSWORD kibana = dn77RMXqhIAzJNowrXtP
+PASSWORD kibana = nzze23DH1oci9KaMRkAZ
 
 Changed password for user logstash_system
-PASSWORD logstash_system = UqlgxQ8kKcZ7klM3I6gZ
+PASSWORD logstash_system = oLlINldOg1abTBc6WKZ2
 
-Changed password for user beats_system:
-PASSWORD beats_system = ex2aYCBoj37oHlxa9Lcm
+Changed password for user beats_system
+PASSWORD beats_system = GynI0zW73pei6ZMwP6uo
 
 Changed password for user remote_monitoring_user
-PASSWORD remote_monitoring_user = zR9fXVtlIAzqB6d6wLg8
+PASSWORD remote_monitoring_user = 9yvaBZZCiNLHPDGiwcMQ
 
 Changed password for user elastic
-PASSWORD elastic = QAQLo4ooJyGwGlAEwHF7
+PASSWORD elastic = FiLKeBQZE4EiT6yw78rj
 
 ## 5. Add the default username in kibana
 elasticsearch.username: "kibana"
