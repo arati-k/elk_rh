@@ -1,7 +1,7 @@
-elastic_host: 192.168.1.2
+elastic_host: 192.168.1.12
 elastic_port: 9200
 
-kibana_host: 192.168.1.2
+kibana_host: 192.168.1.12
 kibana_port: 5601
 
 elastic_protocol: http
@@ -11,5 +11,8 @@ auditbeat_http_port: 5068
 heartbeat_http_port: 5069
 packetbeat_http_port: 5070
 
-web_server_1: 192.168.2.2
-web_server_2: 192.168.2.3
+web_server_1: 192.168.2.10
+web_server_2: 192.168.2.11
+
++fIyU6i6tOkinSJ3sKQ1
+96bTEg1gMSbm6DLronWv
