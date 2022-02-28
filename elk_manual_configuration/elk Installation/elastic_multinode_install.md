@@ -110,26 +110,3 @@ elasticsearch.ssl.certificateAuthorities: [ "/etc/kibana/elasticsearch-ca.pem" ]
 # 5. restart kibana
 systemctl restart kibana
 
-
-
-
-Changed password for user apm_system
-PASSWORD apm_system = EKWHsnF4sRsKllfFKplQ
-
-Changed password for user kibana_system
-PASSWORD kibana_system = KfzBd4hxEaDQf47K9i4L
-
-Changed password for user kibana
-PASSWORD kibana = KfzBd4hxEaDQf47K9i4L
-
-Changed password for user logstash_system
-PASSWORD logstash_system = EgJ61MSjZCncv8rY2nLG
-
-Changed password for user beats_system
-PASSWORD beats_system = lL2WWSSY30ofeUpIoaSh
-
-Changed password for user remote_monitoring_user
-PASSWORD remote_monitoring_user = tvFNNbWA5pVaiOHVIsGE
-
-Changed password for user elastic
-PASSWORD elastic = RhVhgiFgB2TS1mPsS5Db
