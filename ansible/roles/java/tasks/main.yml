@@ -1,7 +1,7 @@
 ---
-# tasks file for java
+# tasks file for prerequisites
+- name: Install Packages
+  yum: name= state=latest update_cache=yes
+  with_items:
+    - default-jdk
 
-- name: Install Java
-  apt: 
-   name: openjdk-8-jdk
-   update_cache: yes

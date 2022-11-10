@@ -9,7 +9,7 @@
 
 - name: Update elastic user password
   uri:
-   url: "{{ es_api_uri }}/{{ es_security_api }}/user/{{es_api_basic_auth_username}}/_password"
+   url: "{{ es_api_uri }}/{{ es_security_api }}/user/{{ es_api_basic_auth_username }}/_password"
    method: POST
    body_format: json
    body: "{ \"password\":\"{{ elastic_password }}\" }"

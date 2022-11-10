@@ -3,11 +3,30 @@
 
 
 # Installing Elasticsearch
-
-- name: Installing Elasticsearch
-  apt:
-   name: elasticsearch
-
+- name: install elasticsearch
+  yum:
+    name: elasticsearch
+    state: present
+    update_cache: yes
+- name: Install firewalld
+  yum:
+        name: firewalld
+        state: latest
+  notify:
+        - start firewalld
+- name: start firewalld
+  service:
+        name: firewalld
+        state: started
+        enabled: yes
+  become: yes
+- name: enable 9200
+  ansible.posix.firewalld:
+        port: 9200/tcp
+        permanent: true
+        state: enabled
+        immediate: true
+  become: yes
 
 # Replace default elasticsearch.yml
 

@@ -10,7 +10,7 @@
 # For more available modules and options, please see the filebeat.reference.yml sample
 # configuration file.
 
-#=========================== Filebeat inputs =============================
+# ============================== Filebeat inputs ===============================
 
 filebeat.inputs:
 
@@ -18,14 +18,18 @@ filebeat.inputs:
 # you can use different inputs for various configurations.
 # Below are the input specific configurations.
 
+# filestream is an input for collecting log messages from files.
 - type: log
 
+  # Unique ID among all inputs, an ID is required.
+#  id: my-filestream-id
+
   # Change to true to enable this input configuration.
-  enabled: {{ filebeat_input_enabled }}
+  enabled: true
 
   # Paths that should be crawled and fetched. Glob based paths.
   paths:
-    - {{ log_path }}
+    - /var/log/*.log
     #- c:\programdata\elasticsearch\logs\*
 
   # Exclude lines. A list of regular expressions to match. It drops the lines that are
@@ -38,7 +42,7 @@ filebeat.inputs:
 
   # Exclude files. A list of regular expressions to match. Filebeat drops the files that
   # are matching any regular expression from the list. By default, no files are dropped.
-  #exclude_files: ['.gz$']
+  #prospector.scanner.exclude_files: ['.gz$']
 
   # Optional additional fields. These fields can be freely picked
   # to add additional information to the crawled log files for filtering
@@ -46,43 +50,27 @@ filebeat.inputs:
   #  level: debug
   #  review: 1
 
-  ### Multiline options
-
-  # Multiline can be used for log messages spanning multiple lines. This is common
-  # for Java Stack Traces or C-Line Continuation
-
-  # The regexp Pattern that has to be matched. The example pattern matches all lines starting with [
-  #multiline.pattern: ^\[
-
-  # Defines if the pattern set under pattern should be negated or not. Default is false.
-  #multiline.negate: false
-
-  # Match can be set to "after" or "before". It is used to define if lines should be append to a pattern
-  # that was (not) matched before or after or as long as a pattern is not matched based on negate.
-  # Note: After is the equivalent to previous and before is the equivalent to to next in Logstash
-  #multiline.match: after
-
-
-#============================= Filebeat modules ===============================
+# ============================== Filebeat modules ==============================
 
 filebeat.config.modules:
   # Glob pattern for configuration loading
   path: ${path.config}/modules.d/*.yml
 
   # Set to true to enable config reloading
-  reload.enabled: {{ reload_enabled }}
+  reload.enabled: false
 
   # Period on which files under path should be checked for changes
-  reload.period: {{ reload_period }}
+  #reload.period: 10s
 
-#==================== Elasticsearch template setting ==========================
+# ======================= Elasticsearch template setting =======================
 
 setup.template.settings:
-  index.number_of_shards: {{ index_number_of_shards }}
-  index.codec: {{ index_codec }}
+  index.number_of_shards: 1
+  #index.codec: best_compression
   #_source.enabled: false
 
-#================================ General =====================================
+
+# ================================== General ===================================
 
 # The name of the shipper that publishes the network data. It can be used to group
 # all the transactions sent by a single shipper in the web interface.
@@ -90,19 +78,18 @@ setup.template.settings:
 
 # The tags of the shipper are included in their own field with each
 # transaction published.
-tags: ["{{ tag }}"]
+#tags: ["service-X", "web-tier"]
 
 # Optional fields that you can specify to add additional information to the
 # output.
 #fields:
 #  env: staging
 
-
-#============================== Dashboards =====================================
+# ================================= Dashboards =================================
 # These settings control loading the sample dashboards to the Kibana index. Loading
 # the dashboards is disabled by default and can be enabled either by setting the
 # options here or by using the `setup` command.
-setup.dashboards.enabled: {{ setup_dashboards_enabled }}
+#setup.dashboards.enabled: false
 
 # The URL from where to download the dashboards archive. By default this URL
 # has a value which is computed based on the Beat name and version. For released
@@ -110,7 +97,7 @@ setup.dashboards.enabled: {{ setup_dashboards_enabled }}
 # website.
 #setup.dashboards.url:
 
-#============================== Kibana =====================================
+# =================================== Kibana ===================================
 
 # Starting with Beats version 6.0.0, the dashboards are loaded via the Kibana API.
 # This requires a Kibana endpoint configuration.
@@ -120,14 +107,14 @@ setup.kibana:
   # Scheme and port can be left out and will be set to the default (http and 5601)
   # In case you specify and additional path, the scheme is required: http://localhost:5601/path
   # IPv6 addresses should always be defined as: https://[2001:db8::1]:5601
-  host: "{{ kibana_host }}:{{ kibana_port }}"
+  #host: "localhost:5601"
 
   # Kibana Space ID
   # ID of the Kibana Space into which the dashboards should be loaded. By default,
   # the Default Space will be used.
   #space.id:
 
-#============================= Elastic Cloud ==================================
+# =============================== Elastic Cloud ================================
 
 # These settings simplify using Filebeat with the Elastic Cloud (https://cloud.elastic.co/).
 
@@ -140,25 +127,27 @@ setup.kibana:
 # `output.elasticsearch.password` settings. The format is `<user>:<pass>`.
 #cloud.auth:
 
-#================================ Outputs =====================================
+# ================================== Outputs ===================================
 
 # Configure what output to use when sending the data collected by the beat.
 
-#-------------------------- Elasticsearch output ------------------------------
-output.elasticsearch:
+# ---------------------------- Elasticsearch Output ----------------------------
+#output.elasticsearch:
   # Array of hosts to connect to.
-  hosts: ["{{ elastic_host }}:{{ elastic_port }}"]
+#  hosts: ["localhost:9200"]
 
-  # Optional protocol and basic auth credentials.
-  
-  protocol: "{{ elastic_protocol }}"
-  username: "{{ elastic_username }}"
-  password: "{{ elastic_password }}"
-  
-#----------------------------- Logstash output --------------------------------
-#output.logstash:
+  # Protocol - either `http` (default) or `https`.
+  #protocol: "https"
+
+  # Authentication credentials - either API key or username/password.
+  #api_key: "id:api_key"
+  #username: "elastic"
+  #password: "changeme"
+
+# ------------------------------ Logstash Output -------------------------------
+output.logstash:
   # The Logstash hosts
-  #hosts: ["localhost:5044"]
+  hosts: ["localhost:5044"]
 
   # Optional SSL. By default is off.
   # List of root certificates for HTTPS server verifications
@@ -170,36 +159,27 @@ output.elasticsearch:
   # Client Certificate Key
   #ssl.key: "/etc/pki/client/cert.key"
 
-#================================ Processors =====================================
-
-# Configure processors to enhance or manipulate events generated by the beat.
-
+# ================================= Processors =================================
 processors:
-  - add_host_metadata: ~
+  - add_host_metadata:
+      when.not.contains.tags: forwarded
   - add_cloud_metadata: ~
   - add_docker_metadata: ~
   - add_kubernetes_metadata: ~
 
-#================================ Logging =====================================
+# ================================== Logging ===================================
 
 # Sets log level. The default log level is info.
 # Available log levels are: error, warning, info, debug
-logging.level: {{ logging_level }}
+#logging.level: debug
 
 # At debug level, you can selectively enable logging only for some components.
 # To enable all selectors use ["*"]. Examples of other selectors are "beat",
-# "publish", "service".
-logging.selectors: ["*"]
+# "publisher", "service".
+#logging.selectors: ["*"]
 
-logging.to_files: {{ logging_to_files}}
-logging.files:
-path: {{ logging_path }}
-name: {{ logging_file_name }}
-keepfiles: {{ logging_keepfiles }}
-permissions: {{ logging_file_permissions }}
-
-#============================== X-Pack Monitoring ===============================
-# filebeat can export internal metrics to a central Elasticsearch monitoring
+# ============================= X-Pack Monitoring ==============================
+# Filebeat can export internal metrics to a central Elasticsearch monitoring
 # cluster.  This requires xpack monitoring to be enabled in Elasticsearch.  The
 # reporting is disabled by default.
 
@@ -220,10 +200,31 @@ permissions: {{ logging_file_permissions }}
 # uncomment the following line.
 #monitoring.elasticsearch:
 
-#================================= Migration ==================================
+# ============================== Instrumentation ===============================
+
+# Instrumentation support for the filebeat.
+#instrumentation:
+    # Set to true to enable instrumentation of filebeat.
+    #enabled: false
+
+    # Environment in which filebeat is running on (eg: staging, production, etc.)
+    #environment: ""
+
+    # APM Server hosts to report instrumentation results to.
+    #hosts:
+    #  - http://localhost:8200
+
+    # API Key for the APM Server(s).
+    # If api_key is set then secret_token will be ignored.
+    #api_key:
+
+    # Secret token for the APM Server(s).
+    #secret_token:
+
+
+# ================================= Migration ==================================
 
 # This allows to enable 6.7 migration aliases
 #migration.6_to_7.enabled: true
 
-http.enabled: {{ http_enabled }}
-http.port: {{ http_port }}
+
